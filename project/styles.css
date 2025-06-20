@@ -1,0 +1,506 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background-color: white;
+}
+
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.logo img {
+  height: 30px;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+}
+
+.links a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.links a:hover {
+  color: red;
+}
+
+
+
+
+
+
+
+
+
+
+.sign-in {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.sign-up {
+  text-decoration: none;
+  padding: 10px 25px;
+  border: 1px solid red;
+  border-radius: 999px;
+  color: red;
+  font-weight: 600;
+  font-size: 15px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.sign-up:hover {
+  background-color: red;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.Top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 40px;
+  background-color: white;
+}
+.Top-text {
+  max-width: 50%;
+}
+
+.Top-text h1 {
+  font-size: 35px;
+  font-weight: bold;
+  color: black;
+  line-height: 2;
+  margin-bottom: 20px;
+}
+
+.Top-text .highlight {
+  color: black;
+}
+
+.Top-text p {
+  font-size: 15px;
+  color: black;
+  line-height: 2;
+  margin-bottom: 30px;
+}
+
+.get-started {
+  display: inline-block;
+  padding: 15px 35px;
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.get-started:hover {
+  background-color: red;
+}
+
+.hero-image {
+  width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 40px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
+  margin: 40px auto;
+  max-width: 1000px;
+}
+
+.stat-box {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex: 1;
+  padding: 20px;
+  text-align: left;
+  border-right: 1px solid white;
+}
+
+.stat-box:last-child {
+  border-right: none;
+}
+
+.stat-box img {
+  width: 50px;
+  height: 50px;
+}
+
+.stat-text h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 5px;
+}
+
+.stat-text p {
+  font-size: 15px;
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 40px;
+  gap: 60px;
+  background-color: white;
+}
+
+.features-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.features-image img {
+  width: 100%;
+  max-width: 400px;
+}
+
+.features-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Fast-VPN {
+  padding: 60px 20px;
+  background-color: white;
+  text-align: center;
+}
+
+.Fast-VPN h2 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.Fast-VPN p {
+  font-size: 15px;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.Fast-VPN-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.plan-card {
+  background-color: white;
+  border: 1px solid orangered;
+  border-radius: 12px;
+  padding: 40px 24px;
+  width: 260px;
+  min-height: 460px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.plan-card img {
+  width: 150px;
+  margin-bottom: 15px;
+}
+
+.plan-card h3 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: black;
+}
+
+.plan-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+.plan-card ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px; 
+  color: dimgray;
+  margin-bottom: 12px;
+}
+
+.plan-card ul li img {
+  width: 150px;
+  height: 15px;
+}
+
+.plan-card .price {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: black;
+}
+
+.plan-card .price span {
+  font-size: 25px;
+}
+
+.select-btn {
+  display: inline-block;
+  padding: 10px 25px;
+  border: 1px solid red;
+  border-radius: 20px;
+  color: red;
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: none;
+  background-color: white;
+}
+
+.select-btn.primary {
+  background-color: red;
+  color: white;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .pricing-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .plan-card {
+    width: 90%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+.Network {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.Network h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: black;
+  line-height: 2;
+  margin-bottom: 20px;
+}
+
+.Network p {
+  font-size: 15px;
+  color: black;
+  line-height: 1.8;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.World-map {
+     text-align: center; 
+}
+.World-map img {
+  width: 70%;  
+  height: auto;
+
+}
+.Sponsored {
+  text-align: center; 
+}
+
+.Sponsored img {
+  width: 70%;  
+  height: auto;
+
+}
+.feedback{
+      text-align: center; 
+}
+.feedback img {
+width: 70%;  
+  height: auto;
+}
+.Subscribe {
+  padding: 40px 20px;
+  background-color: white;
+  color: black;
+}
+
+.Subscribe h2 {
+  font-size: 30px;
+  color: black;
+  margin-bottom: 15px;
+}
+
+.Subscribe p {
+  font-size: 15px;
+  color: black;
+  margin-bottom: 25px;
+}
+
+.Subscribe-Now {
+  display: inline-block;
+  padding: 15px 35px;
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 15px;
+
+}
+
+.button-container {
+  text-align: right;
+}
+.footer {
+  background: whitesmoke;
+  padding: 4rem 0 2rem;
+  font-family: 'Rubik', sans-serif;
+  color: dimgray;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-logo {
+  width: 150px;
+  margin-bottom: 1rem;
+}
+
+.footer-desc {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  color: dimgray;
+  max-width: 280px;
+}
+
+.footer-social a {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 1rem;
+  color: crimson;
+}
+
+.footer-column h4 {
+  font-size: 1rem;
+  color: midnightblue;
+  margin-bottom: 1rem;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: dimgray;
+  font-size: 0.9rem;
+  transition: color 0.3s;
+}
+
+.footer-column ul li a:hover {
+  color: crimson;
+}
+
+.copyright {
+  margin-top: 1.5rem;
+  font-size: 0.8rem;
+  color: lightgray;
+}
